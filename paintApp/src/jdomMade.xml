@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paintData>
+  <shapesOnCanvas>
+    <shape1>
+      <shapeType>Ellipse</shapeType>
+      <colorRed>0</colorRed>
+      <colorGreen>0</colorGreen>
+      <colorBlue>0</colorBlue>
+      <fillRed>255</fillRed>
+      <fillGreen>255</fillGreen>
+      <fillBlue>0</fillBlue>
+      <positionX>20</positionX>
+      <positionY>20</positionY>
+      <properties>{startAngle=0.0, Length=100.5, Width=100.5, arcAngle=360.0}</properties>
+    </shape1>
+    <shape2>
+      <shapeType>Rectangle</shapeType>
+      <colorRed>0</colorRed>
+      <colorGreen>0</colorGreen>
+      <colorBlue>0</colorBlue>
+      <fillRed>0</fillRed>
+      <fillGreen>0</fillGreen>
+      <fillBlue>255</fillBlue>
+      <positionX>50</positionX>
+      <positionY>150</positionY>
+      <properties>{startAngle=0.0, Length=100.5, Width=100.5, arcAngle=360.0}</properties>
+    </shape2>
+    <shapesNum>2</shapesNum>
+  </shapesOnCanvas>
+</paintData>
