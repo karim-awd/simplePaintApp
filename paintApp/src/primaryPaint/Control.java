@@ -226,7 +226,7 @@ public class Control extends JPanel implements ActionListener,MouseMotionListene
 		/****************************Buttons*****************************/
 		/*Undo Button*/
 		JButton undo = new JButton();
-		Icon imageUndo = new ImageIcon("src\\img\\Undo.png");
+		Icon imageUndo = new ImageIcon(getClass().getResource("/Undo.png"));
 		undo.setIcon(imageUndo);
 		undo.setBounds(50, 20, 41, 33);
 		view.add(undo);
@@ -240,7 +240,7 @@ public class Control extends JPanel implements ActionListener,MouseMotionListene
 		
 		/*Redo Button*/
 		JButton redo = new JButton();
-		Icon imageRedo = new ImageIcon("src\\img\\Redo.png");
+		Icon imageRedo = new ImageIcon(getClass().getResource("/Redo.png"));
 		redo.setIcon(imageRedo);
 		redo.setBounds(100, 20, 41, 33);
 		view.add(redo);
@@ -353,7 +353,7 @@ public class Control extends JPanel implements ActionListener,MouseMotionListene
 		
 		/*ellipse button*/
 		JButton circle = new JButton();
-		Icon imageCircle = new ImageIcon("src\\img\\Ellipse.png");
+		Icon imageCircle = new ImageIcon(getClass().getResource("/Ellipse.png"));
 		circle.setIcon(imageCircle);
 		circle.setBounds(260, 20, 60, 60);
 		view.add(circle);
@@ -364,7 +364,7 @@ public class Control extends JPanel implements ActionListener,MouseMotionListene
 		});
 		
 		/*rectangle button*/
-		Icon imageRect = new ImageIcon("src\\img\\Rectangle.png");
+		Icon imageRect = new ImageIcon(getClass().getResource("/Rectangle.png"));
 		JButton rectangle = new JButton();
 		rectangle.setIcon(imageRect);
 	
@@ -378,7 +378,7 @@ public class Control extends JPanel implements ActionListener,MouseMotionListene
 		
 		/*Line button*/
 		JButton Line = new JButton();
-		Icon imageLine = new ImageIcon("src\\img\\Line.png");
+		Icon imageLine = new ImageIcon(getClass().getResource("/Line.png"));
 		Line.setIcon(imageLine);
 		Line.setBounds(400, 20, 60, 60);
 		view.add(Line);
@@ -390,7 +390,7 @@ public class Control extends JPanel implements ActionListener,MouseMotionListene
 		
 		/*save button*/
 		JButton save = new JButton("Save");
-		Icon imageSave = new ImageIcon("src\\img\\Save.png");
+		Icon imageSave = new ImageIcon(getClass().getResource("/Save.png"));
 		save.setIcon(imageSave);
 		save.setBounds(10, 65, 85, 25);
 		view.add(save);
@@ -419,7 +419,7 @@ public class Control extends JPanel implements ActionListener,MouseMotionListene
 		
 		/*load button*/
 		JButton load = new JButton("load");
-		Icon imageLoad = new ImageIcon("src\\img\\Load.png");
+		Icon imageLoad = new ImageIcon(getClass().getResource("/Load.png"));
 		load.setIcon(imageLoad);
 		load.setBounds(100, 65, 90, 25);
 		view.add(load);
@@ -450,7 +450,7 @@ public class Control extends JPanel implements ActionListener,MouseMotionListene
 		
 		/*ScreenCapture button*/
 		JButton ScreenCapture = new JButton("ScreenCapture");
-		Icon imageSC = new ImageIcon("src\\img\\Camera.png");
+		Icon imageSC = new ImageIcon(getClass().getResource("/Camera.png"));
 		ScreenCapture.setIcon(imageSC);
 		ScreenCapture.setBounds(1600, 30, 150, 25);
 		view.add(ScreenCapture);
